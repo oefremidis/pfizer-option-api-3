@@ -8,5 +8,5 @@ import FetchData from './FetchData.vue'
 
 // createApp(LifeCycleHook).mount('#app')
 // createApp(ComputedAndWatched).mount('#app')
-// createApp(Forms).mount('#app')
-createApp(FetchData).mount('#app')
+createApp(Forms).mount('#app')
+// createApp(FetchData).mount('#app')

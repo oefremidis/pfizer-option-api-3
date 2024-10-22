@@ -51,7 +51,7 @@ export default {
         name: { required },
         email: { required, email }
       }
-    }
+    };
   },
 
   setup() {
@@ -65,7 +65,7 @@ export default {
     submitForm() {
       this.v$.$touch()
       // submit form if it is valid
-      if (!this.v$.invalid) {
+      if (!this.v$.$invalid) {
         this.submitted = true;
       }
     }
